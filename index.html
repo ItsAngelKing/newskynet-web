@@ -29,94 +29,100 @@
 
     <main>
         <section class="hero" id="inicio" aria-labelledby="hero-title">
-            <div class="hero-inner">
-                <div class="hero-copy">
+            <span class="hero-inner">
+                <header class="hero-copy">
                     <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Un servidor para tus próximas historias</p>
                     <h1 id="hero-title">Tu mundo.<br><span>Tu aventura.</span></h1>
                     <p class="hero-description">Entra a NewSkyNet, explora a tu ritmo y convierte cada bloque en parte de una historia que es solo tuya.</p>
-                    <div class="hero-actions">
+                    <nav class="hero-actions" aria-label="Acciones principales">
                         <a class="button button-primary" href="wiki.html">Cómo empezar <span aria-hidden="true">↗</span></a>
                         <a class="button button-quiet" href="#mundo">Descubre el mundo <span aria-hidden="true">↓</span></a>
-                    </div>
-                    <div class="hero-footnote">
+                    </nav>
+                    <aside class="hero-footnote">
                         <span class="footnote-rule" aria-hidden="true"></span>
                         <p>Un bloque a la vez. Sin límites para imaginar.</p>
-                    </div>
-                </div>
+                    </aside>
+                </header>
 
-                <div class="hero-art" aria-label="Logo de NewSkyNet sobre un paisaje de bloques">
-                    <div class="art-coordinate" aria-hidden="true">MUNDO / 01</div>
-                    <div class="art-frame">
-                        <div class="art-sky" aria-hidden="true">
+                <figure class="hero-art" aria-label="Logo de NewSkyNet sobre un paisaje de bloques">
+                    <span class="art-coordinate" aria-hidden="true">MUNDO / 01</span>
+                    <span class="art-frame">
+                        <span class="art-sky" aria-hidden="true">
                             <span class="sky-pixel sky-pixel-one"></span>
                             <span class="sky-pixel sky-pixel-two"></span>
                             <span class="sky-pixel sky-pixel-three"></span>
                             <span class="sky-cloud cloud-one"></span>
                             <span class="sky-cloud cloud-two"></span>
-                            <div class="voxel-hill hill-back"></div>
-                            <div class="voxel-hill hill-front"></div>
-                        </div>
-                        <div class="art-logo-wrap">
+                            <span class="voxel-hill hill-back"></span>
+                            <span class="voxel-hill hill-front"></span>
+                        </span>
+                        <span class="art-logo-wrap">
                             <img src="src/img/logo.jpg" alt="Logo de NewSkyNet">
-                        </div>
-                        <div class="art-caption"><span>NEW SKYNET</span><span>MINECRAFT NETWORK</span></div>
-                    </div>
-                    <div class="art-stamp" aria-hidden="true"><span>CREA</span><span>EXPLORA</span><span>COMPARTE</span></div>
-                </div>
-            </div>
+                        </span>
+                    </span>
+                    <span class="art-stamp" aria-hidden="true"><span>CREA</span><span>EXPLORA</span><span>COMPARTE</span></span>
+                    <figcaption class="art-caption"><span>NEW SKYNET</span><span>MINECRAFT NETWORK</span></figcaption>
+                </figure>
+            </span>
             <a class="scroll-cue" href="#mundo"><span aria-hidden="true">↓</span> Sigue explorando</a>
         </section>
 
         <section class="world-section" id="mundo" aria-labelledby="world-title">
-            <div class="section-heading">
+            <header class="section-heading">
                 <p class="section-kicker">BIENVENIDO A NEWSKYNET</p>
                 <h2 id="world-title">Hay más de una forma<br>de vivir <span>el mundo.</span></h2>
                 <p class="section-intro">Prepara tus herramientas, sigue la curiosidad y encuentra tu propia manera de jugar.</p>
-            </div>
-            <div class="world-grid">
-                <article class="world-card card-build">
-                    <div class="card-index"><span>01</span><span class="card-symbol symbol-build" aria-hidden="true"></span></div>
-                    <h3>Construye</h3>
-                    <p>Empieza con una idea, reúne materiales y dale forma bloque a bloque.</p>
-                    <span class="card-tag">TU PRÓXIMO PROYECTO</span>
-                </article>
-                <article class="world-card card-explore">
-                    <div class="card-index"><span>02</span><span class="card-symbol symbol-explore" aria-hidden="true"></span></div>
-                    <h3>Explora</h3>
-                    <p>Sal de los caminos conocidos. Siempre hay algo nuevo al otro lado del horizonte.</p>
-                    <span class="card-tag">EL HORIZONTE TE ESPERA</span>
-                </article>
-                <article class="world-card card-share">
-                    <div class="card-index"><span>03</span><span class="card-symbol symbol-share" aria-hidden="true"></span></div>
-                    <h3>Comparte</h3>
-                    <p>Las mejores aventuras se recuerdan más cuando se viven en compañía.</p>
-                    <span class="card-tag">AVENTURAS EN COMPAÑÍA</span>
-                </article>
-            </div>
+            </header>
+            <ul class="world-grid">
+                <li>
+                    <article class="world-card card-build">
+                        <header class="card-index"><span>01</span><span class="card-symbol symbol-build" aria-hidden="true"></span></header>
+                        <h3>Construye</h3>
+                        <p>Empieza con una idea, reúne materiales y dale forma bloque a bloque.</p>
+                        <span class="card-tag">TU PRÓXIMO PROYECTO</span>
+                    </article>
+                </li>
+                <li>
+                    <article class="world-card card-explore">
+                        <header class="card-index"><span>02</span><span class="card-symbol symbol-explore" aria-hidden="true"></span></header>
+                        <h3>Explora</h3>
+                        <p>Sal de los caminos conocidos. Siempre hay algo nuevo al otro lado del horizonte.</p>
+                        <span class="card-tag">EL HORIZONTE TE ESPERA</span>
+                    </article>
+                </li>
+                <li>
+                    <article class="world-card card-share">
+                        <header class="card-index"><span>03</span><span class="card-symbol symbol-share" aria-hidden="true"></span></header>
+                        <h3>Comparte</h3>
+                        <p>Las mejores aventuras se recuerdan más cuando se viven en compañía.</p>
+                        <span class="card-tag">AVENTURAS EN COMPAÑÍA</span>
+                    </article>
+                </li>
+            </ul>
         </section>
 
         <section class="start-section" aria-labelledby="start-title">
-            <div class="start-grid" aria-hidden="true">
+            <span class="start-grid" aria-hidden="true">
                 <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <div class="start-content">
+            </span>
+            <header class="start-content">
                 <p class="section-kicker">PREPARA TU PARTIDA</p>
                 <h2 id="start-title">¿Listo para<br><span>entrar al mundo?</span></h2>
                 <p>Consulta la wiki para encontrar la información del servidor y dar tus primeros pasos.</p>
                 <a class="button button-dark" href="wiki.html">Visitar la wiki <span aria-hidden="true">↗</span></a>
-            </div>
-            <div class="start-aside">
+            </header>
+            <aside class="start-aside">
                 <span class="aside-number">01<span>/</span>03</span>
                 <span class="aside-rule" aria-hidden="true"></span>
                 <p>Tu próxima historia<br>empieza aquí.</p>
-            </div>
+            </aside>
         </section>
 
         <section class="store-strip" aria-label="Tienda de NewSkyNet">
-            <div>
+            <header>
                 <p class="section-kicker">APOYA EL SERVIDOR</p>
                 <h2>La aventura también se construye fuera del juego.</h2>
-            </div>
+            </header>
             <a class="store-link" href="https://tienda.newskynet.run.place">Visitar la tienda <span aria-hidden="true">↗</span></a>
         </section>
     </main>
@@ -124,11 +130,11 @@
     <footer class="site-footer">
         <a class="footer-brand" href="index.html">NEWSKYNET<span> · MINECRAFT</span></a>
         <p>Un mundo para imaginar, construir y compartir.</p>
-        <div class="footer-links">
+        <nav class="footer-links" aria-label="Navegación secundaria">
             <a href="wiki.html">Wiki</a>
             <a href="https://tienda.newskynet.run.place">Tienda</a>
             <a href="#inicio">Volver arriba ↑</a>
-        </div>
+        </nav>
     </footer>
 </body>
 </html>
