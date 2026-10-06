@@ -3,26 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newskynet</title>
+    <meta name="description" content="Descubre NewSkyNet, tu próximo mundo de Minecraft para construir, explorar y compartir aventuras.">
+    <meta name="theme-color" content="#080e1d">
+    <title>NewSkyNet | Tu mundo de Minecraft</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
-    <header>
-        <a class="brand" href="index.html" aria-label="Newskynet, inicio">
-            <img src="src/img/logo.jpg" alt="Logo">
-            <h1>Newskynet</h1>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="NewSkyNet, inicio">
+            <img src="src/img/logo.jpg" alt="">
+            <span class="brand-copy">
+                <span class="brand-name">NewSkyNet</span>
+                <span class="brand-caption">Servidor de Minecraft</span>
+            </span>
         </a>
-        <menu>
+        <nav class="site-nav" aria-label="Navegación principal">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="https://tienda.newskynet.run.place">Tienda</a></li>
-                <li><a href="wiki.html">Wiki</a></li>
+                <li><a class="nav-link nav-link-current" href="#inicio" aria-current="page">Inicio</a></li>
+                <li><a class="nav-link" href="#mundo">El mundo</a></li>
+                <li><a class="nav-link" href="https://tienda.newskynet.run.place">Tienda</a></li>
+                <li><a class="nav-link nav-link-wiki" href="wiki.html">Wiki <span aria-hidden="true">↗</span></a></li>
             </ul>
-        </menu>
+        </nav>
     </header>
-    <body>
-        
-    </body>
-    <footer>
 
+    <main>
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Un servidor para tus próximas historias</p>
+                    <h1 id="hero-title">Tu mundo.<br><span>Tu aventura.</span></h1>
+                    <p class="hero-description">Entra a NewSkyNet, explora a tu ritmo y convierte cada bloque en parte de una historia que es solo tuya.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="wiki.html">Cómo empezar <span aria-hidden="true">↗</span></a>
+                        <a class="button button-quiet" href="#mundo">Descubre el mundo <span aria-hidden="true">↓</span></a>
+                    </div>
+                    <div class="hero-footnote">
+                        <span class="footnote-rule" aria-hidden="true"></span>
+                        <p>Un bloque a la vez. Sin límites para imaginar.</p>
+                    </div>
+                </div>
+
+                <div class="hero-art" aria-label="Logo de NewSkyNet sobre un paisaje de bloques">
+                    <div class="art-coordinate" aria-hidden="true">MUNDO / 01</div>
+                    <div class="art-frame">
+                        <div class="art-sky" aria-hidden="true">
+                            <span class="sky-pixel sky-pixel-one"></span>
+                            <span class="sky-pixel sky-pixel-two"></span>
+                            <span class="sky-pixel sky-pixel-three"></span>
+                            <span class="sky-cloud cloud-one"></span>
+                            <span class="sky-cloud cloud-two"></span>
+                            <div class="voxel-hill hill-back"></div>
+                            <div class="voxel-hill hill-front"></div>
+                        </div>
+                        <div class="art-logo-wrap">
+                            <img src="src/img/logo.jpg" alt="Logo de NewSkyNet">
+                        </div>
+                        <div class="art-caption"><span>NEW SKYNET</span><span>MINECRAFT NETWORK</span></div>
+                    </div>
+                    <div class="art-stamp" aria-hidden="true"><span>CREA</span><span>EXPLORA</span><span>COMPARTE</span></div>
+                </div>
+            </div>
+            <a class="scroll-cue" href="#mundo"><span aria-hidden="true">↓</span> Sigue explorando</a>
+        </section>
+
+        <section class="world-section" id="mundo" aria-labelledby="world-title">
+            <div class="section-heading">
+                <p class="section-kicker">BIENVENIDO A NEWSKYNET</p>
+                <h2 id="world-title">Hay más de una forma<br>de vivir <span>el mundo.</span></h2>
+                <p class="section-intro">Prepara tus herramientas, sigue la curiosidad y encuentra tu propia manera de jugar.</p>
+            </div>
+            <div class="world-grid">
+                <article class="world-card card-build">
+                    <div class="card-index"><span>01</span><span class="card-symbol symbol-build" aria-hidden="true"></span></div>
+                    <h3>Construye</h3>
+                    <p>Empieza con una idea, reúne materiales y dale forma bloque a bloque.</p>
+                    <span class="card-tag">TU PRÓXIMO PROYECTO</span>
+                </article>
+                <article class="world-card card-explore">
+                    <div class="card-index"><span>02</span><span class="card-symbol symbol-explore" aria-hidden="true"></span></div>
+                    <h3>Explora</h3>
+                    <p>Sal de los caminos conocidos. Siempre hay algo nuevo al otro lado del horizonte.</p>
+                    <span class="card-tag">EL HORIZONTE TE ESPERA</span>
+                </article>
+                <article class="world-card card-share">
+                    <div class="card-index"><span>03</span><span class="card-symbol symbol-share" aria-hidden="true"></span></div>
+                    <h3>Comparte</h3>
+                    <p>Las mejores aventuras se recuerdan más cuando se viven en compañía.</p>
+                    <span class="card-tag">AVENTURAS EN COMPAÑÍA</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="start-section" aria-labelledby="start-title">
+            <div class="start-grid" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="start-content">
+                <p class="section-kicker">PREPARA TU PARTIDA</p>
+                <h2 id="start-title">¿Listo para<br><span>entrar al mundo?</span></h2>
+                <p>Consulta la wiki para encontrar la información del servidor y dar tus primeros pasos.</p>
+                <a class="button button-dark" href="wiki.html">Visitar la wiki <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="start-aside">
+                <span class="aside-number">01<span>/</span>03</span>
+                <span class="aside-rule" aria-hidden="true"></span>
+                <p>Tu próxima historia<br>empieza aquí.</p>
+            </div>
+        </section>
+
+        <section class="store-strip" aria-label="Tienda de NewSkyNet">
+            <div>
+                <p class="section-kicker">APOYA EL SERVIDOR</p>
+                <h2>La aventura también se construye fuera del juego.</h2>
+            </div>
+            <a class="store-link" href="https://tienda.newskynet.run.place">Visitar la tienda <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="index.html">NEWSKYNET<span> · MINECRAFT</span></a>
+        <p>Un mundo para imaginar, construir y compartir.</p>
+        <div class="footer-links">
+            <a href="wiki.html">Wiki</a>
+            <a href="https://tienda.newskynet.run.place">Tienda</a>
+            <a href="#inicio">Volver arriba ↑</a>
+        </div>
     </footer>
+</body>
 </html>
